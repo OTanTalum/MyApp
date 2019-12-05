@@ -1,30 +1,71 @@
-import React, { Component } from 'react';
-import {StyleSheet, Image, View,Text} from 'react-native';
+import React from 'react';
+import {FlatList, ActivityIndicator, Text, View, StyleSheet  } from 'react-native';
+
+export default class SimpleApp extends React.Component {
+    constructor(props){
+        super(props);
+        this.state ={
+            isLoading: true,
+        }
+    }
+
+    componentDidMount(){
+        return fetch('https://api.deezer.com/user/2529/playlists',{
+                method: 'GET',
+                headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json',
+                },
+            }
+        )
+            .then((response) => response.json())
+            .then((responseJson) => {
+
+                this.setState({
+                    isLoading: false,
+                    dataSource: responseJson.data,
+                }, function(){
+
+                });
+
+            })
+            .catch((error) =>{
+                console.error(error);
+            });
+    }
 
 
-export default class Main extends Component{
+    render(){
+        if(this.state.isLoading){
+            return(
+                <View style={styles.loading}>
+                    <ActivityIndicator style={styles.loading} size="large" color="#0000ff" />
+                </View>
+            )
+        }
 
-  render() {
-    let pic = {
-      uri: 'https://i0.wp.com/apptractor.ru/wp-content/uploads/2018/04/1_jh6bmapyE8nPWju7W_7qEw.png?w=796&ssl=1'
-    };
-    return (
-        <View style={styles.background}>
-        <Image source={pic} style={{width: 450, height: 250}}/>
-        <Text style={styles.baseText}>Hello, I`m a Oleh</Text>
-        </View>
-    );
-  }
+        return(
+            <View style={styles.baseText}>
+                <FlatList
+                    data={this.state.dataSource}
+                    renderItem={({item}) => <Text>{item.title}</Text>}
+                    keyExtractor={({id}, index) => id}
+                />
+            </View>
+        );
+    }
 }
 
+
+
 const styles=StyleSheet.create({
-    background:{
-        backgroundColor: '#1a1a39',
-        alignItems: 'center',
+    loading:{
+        flex: 1,
+        justifyContent: 'center',
     },
     baseText:{
-        color: 'white',
-        fontFamily: 'monospace',
-        fontSize: 28,
-    }
+        flex: 1,
+        paddingTop:60,
+        paddingLeft:15,
+    },
 });
