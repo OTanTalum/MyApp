@@ -49,21 +49,21 @@ export default class SimpleApp extends React.Component {
             )
         }
         if(this.state.dataSource) {
-        return(
+            return(
 
                 <View style={styles.loading}>
                     {
 
-                         <FlatList
-                    data={this.state.dataSource}
-                    renderItem={({item}) => <Text>{item.name}</Text>}
-                    keyExtractor={({id}, index) => id}
-                />
+                        <FlatList
+                            data={this.state.dataSource}
+                            renderItem={({item}) => <Text>{item.name}</Text>}
+                            keyExtractor={({id}, index) => id}
+                        />
 
                     }
                 </View>
 
-        );
+            );
         }
     }
 }
