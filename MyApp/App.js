@@ -10,16 +10,11 @@ export default class SimpleApp extends React.Component {
     }
 
     componentDidMount(){
-        let token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9." +
-            "eyJpZCI6IjE5MTY5MzY2MjQxIiwiaWF0IjoxNTc0NzQ1MzkzfQ." +
-            "KNjy849Hj6eJLSV_holfJzNGBU9UUoJADGb3Y4hBMj0";
-        return fetch('https://prod.mascotbe.com/groups/discover',{
-
+        return fetch('https://api.deezer.com/user/2529/playlists',{
                 method: 'GET',
                 headers: {
                     Accept: 'application/json',
                     'Content-Type': 'application/json',
-                    'Authorization': 'Bearer ' + token,
                 },
             }
         )
@@ -28,7 +23,7 @@ export default class SimpleApp extends React.Component {
 
                 this.setState({
                     isLoading: false,
-                    dataSource: responseJson.groups,
+                    dataSource: responseJson.data,
                 }, function(){
 
                 });
@@ -48,23 +43,16 @@ export default class SimpleApp extends React.Component {
                 </View>
             )
         }
-        if(this.state.dataSource) {
+
         return(
-
-                <View style={styles.loading}>
-                    {
-
-                         <FlatList
+            <View style={styles.baseText}>
+                <FlatList
                     data={this.state.dataSource}
-                    renderItem={({item}) => <Text>{item.name}</Text>}
+                    renderItem={({item}) => <Text>{item.title}</Text>}
                     keyExtractor={({id}, index) => id}
                 />
-
-                    }
-                </View>
-
+            </View>
         );
-        }
     }
 }
 

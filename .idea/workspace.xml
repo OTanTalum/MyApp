@@ -7,13 +7,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -26,24 +19,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\O.TanTalum\WebstormProjects\MyEmpty\MyApp\MyApp" />
-      <recent name="C:\Users\O.TanTalum\WebstormProjects\MyEmpty\MyApp" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/MyApp/App.js" working-dir="$PROJECT_DIR$/MyApp">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.App.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -69,39 +44,10 @@
       <updated>1573751633866</updated>
       <workItem from="1573751635304" duration="1056000" />
       <workItem from="1573814720189" duration="19000" />
-      <workItem from="1575646710342" duration="2285000" />
-      <workItem from="1575649029780" duration="1812000" />
-      <workItem from="1575650926746" duration="2222000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="463" y="137" key="FileChooserDialogImpl" timestamp="1575649206804">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="463" y="137" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1575649206804" />
-    <state width="1345" height="171" key="GridCell.Tab.0.bottom" timestamp="1575650845093">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1575650845093" />
-    <state width="1345" height="171" key="GridCell.Tab.0.center" timestamp="1575650845093">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1575650845093" />
-    <state width="1345" height="171" key="GridCell.Tab.0.left" timestamp="1575650845093">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1575650845093" />
-    <state width="1345" height="171" key="GridCell.Tab.0.right" timestamp="1575650845093">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1575650845093" />
-    <state x="184" y="25" key="SettingsEditor" timestamp="1575649220649">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="184" y="25" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1575649220649" />
   </component>
 </project>
