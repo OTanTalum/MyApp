@@ -18,11 +18,10 @@ You need to install
     ```
     npm install -g expo-cli
     ```
-3.Yarn
+ 3.Yarn
 
-    ```
-    npm i yarn
-    ```
+     npm i yarn
+     
     
 ## Running the tests
 
