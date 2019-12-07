@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MyApp" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -72,6 +75,7 @@
       <workItem from="1575646710342" duration="2285000" />
       <workItem from="1575649029780" duration="1812000" />
       <workItem from="1575650926746" duration="2222000" />
+      <workItem from="1575707359267" duration="14291000" />
     </task>
     <servers />
   </component>
@@ -83,25 +87,29 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="137" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1575649206804" />
-    <state width="1345" height="171" key="GridCell.Tab.0.bottom" timestamp="1575650845093">
+    <state width="1345" height="171" key="GridCell.Tab.0.bottom" timestamp="1575712772939">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1575650845093" />
-    <state width="1345" height="171" key="GridCell.Tab.0.center" timestamp="1575650845093">
+    <state width="1345" height="171" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1575712772939" />
+    <state width="1345" height="171" key="GridCell.Tab.0.center" timestamp="1575712772939">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1575650845093" />
-    <state width="1345" height="171" key="GridCell.Tab.0.left" timestamp="1575650845093">
+    <state width="1345" height="171" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1575712772939" />
+    <state width="1345" height="171" key="GridCell.Tab.0.left" timestamp="1575712772938">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1575650845093" />
-    <state width="1345" height="171" key="GridCell.Tab.0.right" timestamp="1575650845093">
+    <state width="1345" height="171" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1575712772938" />
+    <state width="1345" height="171" key="GridCell.Tab.0.right" timestamp="1575712772939">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="171" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1575650845093" />
+    <state width="1345" height="171" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1575712772939" />
     <state x="184" y="25" key="SettingsEditor" timestamp="1575649220649">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="25" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1575649220649" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1575715180165">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1575715180165" />
   </component>
 </project>
